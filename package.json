@@ -1,0 +1,10 @@
+{
+  "name": "chn6-classroom",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/build.mjs && node scripts/dev.mjs"
+  }
+}
